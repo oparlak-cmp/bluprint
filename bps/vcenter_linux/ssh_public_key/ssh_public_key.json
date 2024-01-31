@@ -1,0 +1,40 @@
+{
+    "action_inputs": [
+        {
+            "allow_multiple": false,
+            "available_all_servers": false,
+            "description": null,
+            "field_dependency_controlling_set": [],
+            "field_dependency_dependent_set": [],
+            "global_options": [],
+            "hide_if_default_value": false,
+            "id": "CF-dpgef5ua",
+            "label": "Public Key",
+            "name": "public_key",
+            "placeholder": null,
+            "relevant_osfamilies": [],
+            "required": true,
+            "show_as_attribute": false,
+            "show_on_servers": false,
+            "type": "STR",
+            "value_pattern_string": null
+        }
+    ],
+    "commandline_args": null,
+    "credentials": "YOUR_CREDENTIALS",
+    "description": "Adds an SSH Public Key to a *nix server to enable password-less SSH.",
+    "execution_timeout": 3600,
+    "id": "OHK-wwbtrodw",
+    "last_updated": "2024-01-31",
+    "max_retries": 0,
+    "maximum_version_required": "",
+    "minimum_version_required": "8.6",
+    "name": "SSH Public Key",
+    "remove_after_run": true,
+    "resource_technologies": [],
+    "run_with_sudo": false,
+    "script_filename": "ssh_public_key",
+    "shared": true,
+    "target_os_families": [],
+    "type": "Remote Script"
+}
