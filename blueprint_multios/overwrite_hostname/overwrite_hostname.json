@@ -1,0 +1,14 @@
+{
+    "description": "",
+    "id": "OHK-6s9jlq2z",
+    "last_updated": "2024-01-31",
+    "max_retries": 0,
+    "maximum_version_required": "",
+    "minimum_version_required": "8.6",
+    "name": "Overwrite Hostname",
+    "resource_technologies": [],
+    "script_filename": "cb_plugin_1704744427494758_o7UC90p.py",
+    "shared": true,
+    "target_os_families": [],
+    "type": "CloudBolt Plug-in"
+}
